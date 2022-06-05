@@ -36,7 +36,9 @@ addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), p
 > Collection: [clear](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#clear()), [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#hashCode()), [isEmpty](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#isEmpty()), [parallelStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#parallelStream()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeAll(java.util.Collection)), [removeIf](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeIf(java.util.function.Predicate)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#retainAll(java.util.Collection)), [spliterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#spliterator()), [stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#stream()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(java.util.function.IntFunction)), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(T[]))
 
 <br>
+
 # LIST
+
 <br>
 
 💠 <mark>List </mark>  extends Collection>iterable
