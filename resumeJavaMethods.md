@@ -3,7 +3,7 @@
 # OBJECT
 
 
-hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finalize(),  getClass()
+hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finalize(),  getClass()<br>
 
 # COLLECTION
 
