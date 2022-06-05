@@ -17,7 +17,7 @@ hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finali
 ## QUEUE
 <br>
 
-💠 <mark>Queue</mark> extends collection>iterable
+💠 <mark>Queue</mark> extends collection>iterable - prioridade de processamento, ordena elementos first in first out (mas não necessáriamente).
 
 add(), offer(), remove(), poll(), peek()
 
