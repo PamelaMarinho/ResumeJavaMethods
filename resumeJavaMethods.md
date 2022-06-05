@@ -72,7 +72,7 @@ lastIndexOf()*, removeAll(), retainAll(), containsAll(), elementAt(), firstEleme
 >
 > Collection: [parallelStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#parallelStream()), [stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#stream()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(java.util.function.IntFunction))
 >
-> List: sort
+> List: <a href"https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator">sort</a>
 
 <br>
 
