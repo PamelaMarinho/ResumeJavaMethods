@@ -6,5 +6,8 @@
 * Passa por alterações constantemente.
 
 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+<img align="center" alt="vscode" height="130" width="130"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+            
+   
+          
           
