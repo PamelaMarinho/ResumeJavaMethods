@@ -8,7 +8,7 @@ hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finali
 
 💠 Collection(interface) Métodos( add(obj) - addAll(collection objs) -  remove(obj) - removeAll(collection objs) - retainAll(collection obj) - clear() - isEmpty() - size() - contains(obj) - containsAll(collection) - toArray(collection), hashCode(), equals(obj))
 
-> Iterable: forEach
+> Iterable: <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Iterable.html#forEach(java.util.function.Consumer)">forEach</a>
 
 <br>
 
@@ -93,9 +93,9 @@ clone(), descendingIterator(), peek(), element(), poll(), offer(), offerLast(), 
 >
 > List: c[ontainsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#hashCode()), [isEmpty](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#isEmpty()), [iterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#iterator()), [listIterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#listIterator()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#removeAll(java.util.Collection)), [replaceAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#replaceAll(java.util.function.UnaryOperator)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#retainAll(java.util.Collection)), [sort](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator)), [subList](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#subList(int,int))
 >
-> AbestractSequencialLIst: iterator
+> AbstractSequencialLIst: <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractSequentialList.html#iterator()">iterator</a>
 >
-> Deque: iterator
+> Deque: <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Deque.html#iterator()">iterator</a>
 <br> 
 
 ## SET 
@@ -186,7 +186,15 @@ size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAl
 >
 > AbstractMap: [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractMap.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractMap.html#hashCode()), [toString](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractMap.html#toString())
 >
-> Map: equals, forEach, getOrDefault, hashCode, putIfAbsent, remove, replace, replace, replaceAll
+> Map: <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#equals(java.lang.Object)">equals, </a>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#forEach(java.util.function.BiConsumer)">forEach, </a>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#getOrDefault(java.lang.Object,V)">getOrDefault, </a>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#hashCode()">hashCode, </a>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#putIfAbsent(K,V)">putIfAbsent, </a>
+<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#remove(java.lang.Object,java.lang.Object)">remove, </a>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#replace(K,V)">replace, </a>
+> <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#replace(K,V,V)">replace, </a>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#replaceAll(java.util.function.BiFunction)">replaceAll</a>
 
 <br>
 
