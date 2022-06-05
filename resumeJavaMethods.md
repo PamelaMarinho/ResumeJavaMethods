@@ -1,10 +1,12 @@
 > o que estiver nessa sessão apresenta os métodos implementados e suas respectivas interfaces/classes
 
 # OBJECT
+<br>
 
 hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finalize(),  getClass()
 
 # COLLECTION
+<br>
 
 💠 Collection(interface) Métodos( add(obj) - addAll(collection objs) -  remove(obj) - removeAll(collection objs) - retainAll(collection obj) - clear() - isEmpty() - size() - contains(obj) - containsAll(collection) - toArray(collection), hashCode(), equals(obj))
 
@@ -13,6 +15,7 @@ hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finali
 <br>
 
 # QUEUE
+<br>
 
 💠 <mark>Queue</mark> extends collection>iterable
 
@@ -34,6 +37,7 @@ addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), p
 
 <br>
 # LIST
+<br>
 
 💠 <mark>List </mark>  extends Collection>iterable
 
@@ -94,6 +98,7 @@ size(), contains(), add(), remove(), addAll()*, clear(), get(), set(), indexOf()
 > Deque: iterator
 <br>
 # SET
+<br>
 
 💠 <mark>Set</mark> 
 
@@ -160,7 +165,7 @@ iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), addAll(), c
 >Set: [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#hashCode()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#removeAll(java.util.Collection)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#retainAll(java.util.Collection)), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#toArray()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#toArray(T[]))
 <br>
 # MAP
-
+<br>
 💠 <mark>Map</mark> 
 
 size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAll(), clear(), keySet(), values(), entrySet(), equals(), computeIfAbsent(), computeIfPresent(), compute(), merge(), hashCode(), getOrDefault(), forEach(), replaceAll(), outIfAbsent(), replace(),  of(), ofEntries(), entry(), copyOf()
