@@ -41,7 +41,7 @@ addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), p
 
 <br>
 
-💠 <mark>List </mark>  extends Collection>iterable
+💠 <mark>List </mark>  extends Collection>iterable - coleção ordenada/permite elementos duplicados/possui indíce/permite múltiplos elementos nulos
 
 size(),isEmpty(), contains(obj), iterator, toArray()*, add(), remove(), addAll()*, removeAll(), retainAll(), get(), set(), clear(), indexOf(), latIndexOf(), listIterator(), iterator(), spliterator(), equals(), hashCode(), sunList(),`replaceAll(), sort(), copyOf, of()*, containsAll()`
 
@@ -51,7 +51,7 @@ size(),isEmpty(), contains(obj), iterator, toArray()*, add(), remove(), addAll()
 
 <br>
 
-💠 <mark>ArrayList</mark>   extends Collection>iterable
+💠 <mark>ArrayList</mark>   extends Collection>iterable - homogênio - tamanho fixo - não suporta métodos de leitura 
 
 size(), isEmpty(), contains(),  iterator(), toArray(), add()*, remove(), addAll()*, removeAll(), retainAll(), get(), set(), clear(), indexOf(), latIndexOf(), listIterator(), spliterator(), equals(), hashCode(), sunList(), removeIf(),  clone(), trimToSize(), ensureCapacity(int), removeRange(), `forEach()`
 
@@ -104,7 +104,7 @@ size(), contains(), add(), remove(), addAll()*, clear(), get(), set(), indexOf()
 
 <br>
 
-💠 <mark>Set</mark> 
+💠 <mark>Set</mark> - não permite elementos duplicados/não possui índice
 
 removeAll(), size(), isEmpty(), contains(obj), iterator(), toArray(), add(e), remove(obj), containsAll(Collection), addAll(Collection), retainAll(), removeAll(), clear(), equals(), hashCode(), spliterator(), `of(), copyOf()`
 
@@ -114,7 +114,7 @@ removeAll(), size(), isEmpty(), contains(obj), iterator(), toArray(), add(e), re
 
 <br>
 
-💠 <mark>HashSet</mark> 
+💠 <mark>HashSet</mark> - não mantem ordem dos elementos/permite um elemento nulo.
 
 iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), clone(), spliterator(), toArray()
 
@@ -132,7 +132,7 @@ iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), clone(), sp
 
 <br>
 
-💠 <mark>LinkedHashSet</mark>    *extends HashSet*
+💠 <mark>LinkedHashSet</mark>   extends HashSet - mantem ordem de inserção/permite um elemento nulo.
 
 spliterator() 
 
@@ -152,7 +152,7 @@ spliterator()
 
 <br>
 
-💠 <mark>TreeSet</mark>    implements NavigableSet > SortedSet > Set
+💠 <mark>TreeSet</mark>    implements NavigableSet>SortedSet>Set - mantem ordem natural/não permite elemento nulo.
 
 iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), addAll(), clone(), spliterator(), `subSet(), headSet(), tailSet(), subSet(), headSet(), tailSet(), comparator(), first(), last(), lower(), floor(), ceiling(), higher(), pollFirst(), pollLast(), descendingIterator(), descendingSet()`
 
@@ -178,7 +178,7 @@ size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAl
 
 <br>
 
-💠 <mark>HashMap</mark> extended  abstractMap>map
+💠 <mark>HashMap</mark> extended abstractMap>map - par key: value - key deve ser único, value pode ser duplicado 
 
 size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAll(), clear(), keySet(), values(), entrySet(), equals(), computeIfAbsent(), computeIfPresent(), compute(), merge(), clone()
 
