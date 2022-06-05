@@ -1,4 +1,4 @@
-![s](/home/pamela/Downloads/s.svg)
+> o que estiver nessa sessão apresenta os métodos implementados e suas respectivas interfaces/classes
 
 # OBJECT
 
