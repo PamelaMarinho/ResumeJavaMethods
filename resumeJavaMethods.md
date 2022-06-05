@@ -6,7 +6,7 @@ hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finali
 
 # COLLECTION
 
-Collection(interface) Métodos( add(obj) - addAll(collection objs) -  remove(obj) - removeAll(collection objs) - retainAll(collection obj) - clear() - isEmpty() - size() - contains(obj) - containsAll(collection) - toArray(collection), hashCode(), equals(obj))
+💠 Collection(interface) Métodos( add(obj) - addAll(collection objs) -  remove(obj) - removeAll(collection objs) - retainAll(collection obj) - clear() - isEmpty() - size() - contains(obj) - containsAll(collection) - toArray(collection), hashCode(), equals(obj))
 
 > Iterable: forEach
 
@@ -14,7 +14,7 @@ Collection(interface) Métodos( add(obj) - addAll(collection objs) -  remove(obj
 
 # QUEUE
 
-<mark>Queue</mark> extends collection>iterable
+💠 <mark>Queue</mark> extends collection>iterable
 
 add(), offer(), remove(), poll(), peek()
 
@@ -24,7 +24,7 @@ add(), offer(), remove(), poll(), peek()
 
 
 
-<mark>Deque</mark> extends queue>collection>iterable
+💠 <mark>Deque</mark> extends queue>collection>iterable
 
 addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), pollFirst(), pollLast(), getFirst(), getLast(), peekFirst(), peekLast(), removeFirstOccurrence(), removeLastOccurrence(), add(), offer(), remove(), poll(), element(), peek(), addAll(), push(), pop(), remove(), contains(), size(), iterable(), descendingIterator()
 
@@ -34,7 +34,7 @@ addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), p
 
 # LIST
 
-<mark>List </mark>  extends Collection>iterable
+💠 <mark>List </mark>  extends Collection>iterable
 
 size(),isEmpty(), contains(obj), iterator, toArray()*, add(), remove(), addAll()*, removeAll(), retainAll(), get(), set(), clear(), indexOf(), latIndexOf(), listIterator(), iterator(), spliterator(), equals(), hashCode(), sunList(),`replaceAll(), sort(), copyOf, of()*, containsAll()`
 
@@ -44,7 +44,7 @@ size(),isEmpty(), contains(obj), iterator, toArray()*, add(), remove(), addAll()
 
 
 
-<mark>ArrayList</mark>   extends Collection>iterable
+💠 <mark>ArrayList</mark>   extends Collection>iterable
 
 size(), isEmpty(), contains(),  iterator(), toArray(), add()*, remove(), addAll()*, removeAll(), retainAll(), get(), set(), clear(), indexOf(), latIndexOf(), listIterator(), spliterator(), equals(), hashCode(), sunList(), removeIf(),  clone(), trimToSize(), ensureCapacity(int), removeRange(), `forEach()`
 
@@ -60,7 +60,7 @@ size(), isEmpty(), contains(),  iterator(), toArray(), add()*, remove(), addAll(
 
 
 
-<mark>Vector</mark>  
+💠 <mark>Vector</mark>  
 
 size(), isEmpty(), contains(), listIterator(), iterator(), equals(), addAll(), indexOf()*, toArray(), get(), set(), add(), remove(), clear(),  spliterator(), removeIf() ,   clone(),  trimToSize(),  removeRange(),  capacity(), ensureCapacity(),   hashCode(), `lastIndexOf()*, removeAll(), retainAll(), containsAll(), elementAt(), firstElement(), lastElement(), toString(), subList(), setElementAt(), removeElementAt(), insertElementAt(), addElement(),  copyInto(), elements(), setSize(), removeElement(), removeAllElements(), replaceAll(),`
 
@@ -72,7 +72,7 @@ size(), isEmpty(), contains(), listIterator(), iterator(), equals(), addAll(), i
 
 
 
-<mark>LInkedList</mark>   implements List e abstractSequentialList
+💠 <mark>LInkedList</mark>   implements List e abstractSequentialList
 
 size(), contains(), add(), remove(), addAll()*, clear(), get(), set(), indexOf(), lastIndexOf(), listIterator(),  toArray()*, spliterator(), `clone(), descendingIterator(), peek(), element(), poll(), offer(), offerLast(), peekFirst(), peekLast(), pollFIrst(), pollLast(), push(), pop(), removeFirstOccurrence(), removeLastOccurrence(), getFirst(), getLast(), removeFirst(), removeLast(), addFirst(), addLast()`
 
@@ -94,7 +94,7 @@ size(), contains(), add(), remove(), addAll()*, clear(), get(), set(), indexOf()
 
 # SET
 
-<mark>Set</mark> 
+💠 <mark>Set</mark> 
 
 removeAll(), size(), isEmpty(), contains(obj), iterator(), toArray(), add(e), remove(obj), containsAll(Collection), addAll(Collection), retainAll(), removeAll(), clear(), equals(), hashCode(), spliterator(), `of(), copyOf()`
 
@@ -104,7 +104,7 @@ removeAll(), size(), isEmpty(), contains(obj), iterator(), toArray(), add(e), re
 
 
 
-<mark>HashSet</mark> 
+💠 <mark>HashSet</mark> 
 
 iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), clone(), spliterator(), toArray()
 
@@ -122,7 +122,7 @@ iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), clone(), sp
 
 
 
-<mark>LinkedHashSet</mark>    *extends HashSet*
+💠 <mark>LinkedHashSet</mark>    *extends HashSet*
 
 spliterator() 
 
@@ -142,7 +142,7 @@ spliterator()
 
 
 
-<mark>TreeSet</mark>    implements NavigableSet > SortedSet > Set
+💠 <mark>TreeSet</mark>    implements NavigableSet > SortedSet > Set
 
 iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), addAll(), clone(), spliterator(), `subSet(), headSet(), tailSet(), subSet(), headSet(), tailSet(), comparator(), first(), last(), lower(), floor(), ceiling(), higher(), pollFirst(), pollLast(), descendingIterator(), descendingSet()`
 
@@ -160,13 +160,13 @@ iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), addAll(), c
 
 # MAP
 
-<mark>Map</mark> 
+💠 <mark>Map</mark> 
 
 size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAll(), clear(), keySet(), values(), entrySet(), equals(), computeIfAbsent(), computeIfPresent(), compute(), merge(), hashCode(), getOrDefault(), forEach(), replaceAll(), outIfAbsent(), replace(),  of(), ofEntries(), entry(), copyOf()
 
 
 
-<mark>HashMap</mark> extended  abstractMap>map
+💠 <mark>HashMap</mark> extended  abstractMap>map
 
 size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAll(), clear(), keySet(), values(), entrySet(), equals(), computeIfAbsent(), computeIfPresent(), compute(), merge(), clone()
 
@@ -178,7 +178,7 @@ size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAl
 
 
 
-<mark>LinkedHashMap</mark>  extended  hashMap>abstractMap>map
+💠 <mark>LinkedHashMap</mark>  extended  hashMap>abstractMap>map
 
 containsValue(), get(), clear(), removeEldestEntry(), keySet(), values(), entrySet()
 
@@ -192,7 +192,7 @@ containsValue(), get(), clear(), removeEldestEntry(), keySet(), values(), entryS
 
 
 
-<mark>TreeMap</mark> implements  sortedMap>navigateMap
+💠 <mark>TreeMap</mark> implements  sortedMap>navigateMap
 
 size(), containsKey(), containsValue(), get(), comparator(), firstKey(), lastKey(), putAll(), put(), computeIfAbsent(), computeIfPresent(), compute(), merge(), remove(), clear(), clone(), firstEntry(), lastEntry(), pollFirstEntry(), pollLastEntry(), lowerEntry(), lowerKey(), floorEntry(), floorkey(), ceilingEntry(), ceilingkey(), heigherEntry(), higherkey(), keySet(), navigablekeySet(), descendingKeySet(), values(), entrySet(), descendingMap(), subMap(), heaMap(), tailMap(), subMap(), headMap(), tailMap()
 
