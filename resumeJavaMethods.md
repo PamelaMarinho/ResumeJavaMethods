@@ -1,9 +1,7 @@
 > o que estiver nessa sessão apresenta os métodos implementados e suas respectivas interfaces/classes
 
 # OBJECT
-
-
-hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finalize(),  getClass()<br>
+hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finalize(),  getClass()<br><br>
 
 # COLLECTION
 
