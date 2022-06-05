@@ -6,7 +6,7 @@
 hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finalize(),  getClass()
 
 # COLLECTION
-<br>
+
 
 💠 Collection(interface) Métodos( add(obj) - addAll(collection objs) -  remove(obj) - removeAll(collection objs) - retainAll(collection obj) - clear() - isEmpty() - size() - contains(obj) - containsAll(collection) - toArray(collection), hashCode(), equals(obj))
 
@@ -15,7 +15,6 @@ hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finali
 <br>
 
 ## QUEUE
-<br>
 
 💠 <mark>Queue</mark> extends collection>iterable - prioridade de processamento, ordena elementos first in first out (mas não necessáriamente).
 
@@ -39,7 +38,6 @@ addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), p
 
 ## LIST
 
-<br>
 
 💠 <mark>List </mark>  extends Collection>iterable - coleção ordenada/permite elementos duplicados/possui indíce/permite múltiplos elementos nulos
 
@@ -104,7 +102,7 @@ clone(), descendingIterator(), peek(), element(), poll(), offer(), offerLast(), 
 
 ## SET 
 
-<br>
+
 
 💠 <mark>Set</mark> - não permite elementos duplicados/não possui índice
 
@@ -175,7 +173,7 @@ subSet(), headSet(), tailSet(), subSet(), headSet(), tailSet(), comparator(), fi
 
 # MAP
 
-<br>
+
 💠 <mark>Map</mark> 
 
 size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAll(), clear(), keySet(), values(), entrySet(), equals(), computeIfAbsent(), computeIfPresent(), compute(), merge(), hashCode(), getOrDefault(), forEach(), replaceAll(), outIfAbsent(), replace(),  of(), ofEntries(), entry(), copyOf()
