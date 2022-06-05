@@ -10,7 +10,7 @@ hashCode(), equals(), clone(), toString(), notify(), notifyAll(), wait(), finali
 
 > Iterable: forEach
 
-
+<br>
 
 # QUEUE
 
@@ -22,7 +22,7 @@ add(), offer(), remove(), poll(), peek()
 >
 > Collection: [addAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#addAll(java.util.Collection)), [clear](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#clear()), [contains](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#contains(java.lang.Object)), [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#hashCode()), [isEmpty](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#isEmpty()), [iterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#iterator()), [parallelStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#parallelStream()), [remove](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#remove(java.lang.Object)), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeAll(java.util.Collection)), [removeIf](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeIf(java.util.function.Predicate)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#retainAll(java.util.Collection)), [size](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#size()), [spliterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#spliterator()), [stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#stream()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(java.util.function.IntFunction)), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(T[]))
 
-
+<br>
 
 💠 <mark>Deque</mark> extends queue>collection>iterable
 
@@ -32,6 +32,7 @@ addFirst(), addLast(), offerFirst(), offerLast(), removeFirst(), removeLast(), p
 >
 > Collection: [clear](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#clear()), [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#hashCode()), [isEmpty](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#isEmpty()), [parallelStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#parallelStream()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeAll(java.util.Collection)), [removeIf](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeIf(java.util.function.Predicate)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#retainAll(java.util.Collection)), [spliterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#spliterator()), [stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#stream()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(java.util.function.IntFunction)), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(T[]))
 
+<br>
 # LIST
 
 💠 <mark>List </mark>  extends Collection>iterable
@@ -42,7 +43,7 @@ size(),isEmpty(), contains(obj), iterator, toArray()*, add(), remove(), addAll()
 >
 > Collection: [parallelStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#parallelStream()), [removeIf](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeIf(java.util.function.Predicate)), [stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#stream()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(java.util.function.IntFunction))
 
-
+<br>
 
 💠 <mark>ArrayList</mark>   extends Collection>iterable
 
@@ -58,7 +59,7 @@ size(), isEmpty(), contains(),  iterator(), toArray(), add()*, remove(), addAll(
 >
 > List: [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#containsAll(java.util.Collection)), [replaceAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#replaceAll(java.util.function.UnaryOperator)), [sort](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator))
 
-
+<br>
 
 💠 <mark>Vector</mark>  
 
@@ -70,7 +71,7 @@ size(), isEmpty(), contains(), listIterator(), iterator(), equals(), addAll(), i
 >
 > List: sort
 
-
+<br>
 
 💠 <mark>LInkedList</mark>   implements List e abstractSequentialList
 
@@ -91,7 +92,7 @@ size(), contains(), add(), remove(), addAll()*, clear(), get(), set(), indexOf()
 > AbestractSequencialLIst: iterator
 >
 > Deque: iterator
-
+<br>
 # SET
 
 💠 <mark>Set</mark> 
@@ -102,7 +103,7 @@ removeAll(), size(), isEmpty(), contains(obj), iterator(), toArray(), add(e), re
 >
 > Collection: [parallelStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#parallelStream()), [removeIf](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#removeIf(java.util.function.Predicate)), [stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#stream()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html#toArray(java.util.function.IntFunction))
 
-
+<br>
 
 💠 <mark>HashSet</mark> 
 
@@ -120,7 +121,7 @@ iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), clone(), sp
 >
 >Set: [addAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#addAll(java.util.Collection)), [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#hashCode()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#removeAll(java.util.Collection)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#retainAll(java.util.Collection))
 
-
+<br>
 
 💠 <mark>LinkedHashSet</mark>    *extends HashSet*
 
@@ -140,7 +141,7 @@ spliterator()
 >
 > HashSet: [add](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#add(E)), [clear](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#clear()), [clone](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#clone()), [contains](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#contains(java.lang.Object)), [isEmpty](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#isEmpty()), [iterator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#iterator()), [remove](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#remove(java.lang.Object)), [size](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#size()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#toArray()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html#toArray(T[]))
 
-
+<br>
 
 💠 <mark>TreeSet</mark>    implements NavigableSet > SortedSet > Set
 
@@ -157,14 +158,14 @@ iterator(), size(), isEmpty(), contains(), add(), remove(), clear(), addAll(), c
 >AbstractSet: [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractSet.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractSet.html#hashCode()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/AbstractSet.html#removeAll(java.util.Collection))
 >
 >Set: [containsAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#containsAll(java.util.Collection)), [equals](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#equals(java.lang.Object)), [hashCode](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#hashCode()), [removeAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#removeAll(java.util.Collection)), [retainAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#retainAll(java.util.Collection)), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#toArray()), [toArray](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html#toArray(T[]))
-
+<br>
 # MAP
 
 💠 <mark>Map</mark> 
 
 size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAll(), clear(), keySet(), values(), entrySet(), equals(), computeIfAbsent(), computeIfPresent(), compute(), merge(), hashCode(), getOrDefault(), forEach(), replaceAll(), outIfAbsent(), replace(),  of(), ofEntries(), entry(), copyOf()
 
-
+<br>
 
 💠 <mark>HashMap</mark> extended  abstractMap>map
 
@@ -176,7 +177,7 @@ size(), isEmpty(), containsKey(), containsValue(), get(), put(), remove(), putAl
 >
 > Map: equals, forEach, getOrDefault, hashCode, putIfAbsent, remove, replace, replace, replaceAll
 
-
+<br>
 
 💠 <mark>LinkedHashMap</mark>  extended  hashMap>abstractMap>map
 
@@ -190,7 +191,7 @@ containsValue(), get(), clear(), removeEldestEntry(), keySet(), values(), entryS
 >
 > HashMap: [clear](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#clear()), [clone](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#clone()), [compute](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#compute(K,java.util.function.BiFunction)), [computeIfAbsent](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#computeIfAbsent(K,java.util.function.Function)), [computeIfPresent](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#computeIfPresent(K,java.util.function.BiFunction)), [containsKey](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#containsKey(java.lang.Object)), [isEmpty](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#isEmpty()), [merge](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#merge(K,V,java.util.function.BiFunction)), [put](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#put(K,V)), [putAll](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#putAll(java.util.Map)), [remove](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#remove(java.lang.Object)), [size](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html#size())
 
-
+<br>
 
 💠 <mark>TreeMap</mark> implements  sortedMap>navigateMap
 
